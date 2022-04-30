@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+body{
+    font-family: "Roboto";
+}
+
 /*Styles pour les cartes*/
 .card{
     margin-right:10px;
