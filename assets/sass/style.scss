@@ -1,4 +1,18 @@
-body{margin-top:20px;}
+/*Styles pour les cartes*/
+.card{
+    margin-right:10px;
+    margin-left:20px;
+} 
+
+@media (max-width:500px) {
+    .row_p {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
+
+/*Styles pour la timeline*/
 .timeline {
     border-left: 3px solid #727cf5;
     border-bottom-right-radius: 4px;
