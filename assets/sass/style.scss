@@ -8,16 +8,19 @@ body{
 
 //Styles pour les ancres
 .btn-arr{
-    border-radius: 50%;
+    border-radius: 15px;
     padding: 5px 15px 5px 15px;
+    text-decoration: none;
     border: none;
     margin-top: 15px;
     display: block;
     margin: auto;
-    background-color: #abacbd;
+    background-color: rgb(94, 94, 247);
+    color: #fff;
     &:hover{
         cursor: pointer;
         transform: scale(1.2);
+        font-style: italic;
     }
 }
 

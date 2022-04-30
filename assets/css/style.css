@@ -8,19 +8,22 @@ body {
 }
 
 .btn-arr {
-  border-radius: 50%;
+  border-radius: 15px;
   padding: 5px 15px 5px 15px;
+  text-decoration: none;
   border: none;
   margin-top: 15px;
   display: block;
   margin: auto;
-  background-color: #abacbd;
+  background-color: #5e5ef7;
+  color: #fff;
 }
 
 .btn-arr:hover {
   cursor: pointer;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+  font-style: italic;
 }
 
 /*Styles pour les cartes*/
