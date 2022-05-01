@@ -6,7 +6,13 @@ h1, h2, h3, p{
 .btn-top{
     display: block;
     margin: auto;
-    width: 10%;
+    width: 5%;
+}
+
+@media (max-width:800px) {
+    .btn-top{
+        width: 10%;
+    }
 }
 
 /*Styles pour les cartes*/
