@@ -14,25 +14,6 @@ h1, h2, h3, p {
   }
 }
 
-/*Styles pour les cartes*/
-.card {
-  margin-right: 10px;
-  margin-left: 20px;
-}
-
-@media (max-width: 500px) {
-  .row_p {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-bottom: 10px;
-  }
-}
-
 /*Styles pour la timeline*/
 .timeline {
   border-left: 3px solid #727cf5;
