@@ -1,17 +1,110 @@
+@charset "UTF-8";
+/*Responsive*/
+@media (max-width: 800px) {
+  .btn-top {
+    width: 10%;
+  }
+  .navbar-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+}
+
+/*Styles liés aux compétences*/
+@media (min-width: 800px) {
+  .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 150px;
+    padding-bottom: 50px;
+  }
+  .skills img {
+    width: 150px;
+  }
+}
+
+@media (min-width: 921px) and (max-width: 1200px) {
+  .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 80px;
+    padding-bottom: 50px;
+  }
+  .skills img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 921px) {
+  .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+    padding-bottom: 25px;
+  }
+  .skills img {
+    width: 100px;
+  }
+}
+
+/*Styles liés à la page générale*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 h1, h2, h3, p {
   text-align: center;
+}
+
+.nav-color {
+  background-color: #86c7f3;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo-mail {
+  width: 60%;
+}
+
+.navbar-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  max-width: 1300px;
 }
 
 .btn-top {
   display: block;
   margin: auto;
   width: 5%;
-}
-
-@media (max-width: 800px) {
-  .btn-top {
-    width: 10%;
-  }
 }
 
 /*Styles pour la timeline*/

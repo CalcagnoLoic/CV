@@ -6,21 +6,30 @@
     <meta name="auteur" content="Loïc Calcagno">
     <meta name="description" content="Loïc Calcagno, developer full stack!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/icon.png">
+    
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Loïc Calcagno | CV</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!--Barre de navigation-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-info p-3">
+        <nav class="navbar navbar-expand-lg navbar-light nav-color p-3 nav-color">
             <a class="navbar-brand text-white" href="#" id="top">Loïc Calcagno | CV</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse navbar-flex" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link text-white" href="#MyProfile">My profile</a>
@@ -39,10 +48,10 @@
                         <!--RETIRER LA CLASSE UTILITAIRE DISABLED QUAND PORTFOLIO OK-->
                     </li>
                     <li class="nav-item active" >
-                        <a class="nav-link text-white" href="CV/cv_ang.pdf" target="_blank">Download PDF file <img src="img/filetype-pdf.svg"/></a>
+                        <a class="nav-link text-white" href="CV/cv_ang.pdf" target="_blank">Download PDF file <img src="img/filetype-pdf.svg" alt="pdf files"/></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link text-white" aria-current="page" href="../index.html">CV in french 🇫🇷</a>
+                        <a class="nav-link text-white" aria-current="page" href="../index.html">Resume in french 🇫🇷</a>
                     </li>
                 </ul>
             </div>
@@ -65,16 +74,16 @@
                     
                     <div class="row py-2">
                         <div class="col ">
-                            <a href="https://github.com/CalcagnoLoic" target="_blank"><img src="img/github.png" class="img-fluid" width="50%" alt="Logo github"></a>
+                            <a href="https://github.com/CalcagnoLoic" target="_blank"><img src="img/github.png" class="img-fluid logo" alt="Logo github"></a>
                         </div>
                         <div class="col">
-                            <a href="https://www.linkedin.com/in/loic-calcagno/"target="_blank"><img src="img/linkedin.png" class="img-fluid" width="50%" alt="Logo linkedin"></a>
+                            <a href="https://www.linkedin.com/in/loic-calcagno/" target="_blank"><img src="img/linkedin.png" class="img-fluid logo" alt="Logo linkedin"></a>
                         </div>
                         <div class="col">
-                            <a href="mailto:calcagnoloic93@gmail.com"><img src="img/gmail.png " class="img-fluid" width="60%" alt="mailto gmail"></a>
+                            <a href="mailto:calcagnoloic93@gmail.com"><img src="img/gmail.png " class="img-fluid logo-mail" alt="mailto gmail"></a>
                         </div>
                         <div class="col">
-                            <a href="mailto:loic.calcagno@hotmail.com"><img src="img/outlook.png" class="img-fluid" width="50%" alt="mailto hotmail"></a>
+                            <a href="mailto:loic.calcagno@hotmail.com"><img src="img/outlook.png" class="img-fluid logo" alt="mailto hotmail"></a>
                         </div>
                     </div>
                 </div>
@@ -95,25 +104,15 @@
                 <li class="list-group-item">Multi-skilled</li>
                 <li class="list-group-item">Teamwork</li>
                 <li class="list-group-item">Ability to synthesise</li>
-                
                 <li class="list-group-item">Interest in IT</li>
                 <li class="list-group-item">Hiking, photography, nature</li>
-                <li class="list-group-item">
-                    <progress id="file" max="100" value="100"> 70% </progress>
-                    <label for="lang1">French: Mother tongue</label>
-                </li>
-                <li class="list-group-item">
-                    <progress id="file" max="100" value="60"> 50% </progress>
-                    <label for="lang1">English: Level B1</label>
-                </li>
-                <li class="list-group-item">
-                    <progress id="file" max="100" value="15"> 10% </progress>
-                    <label for="lang1">Dutch: Basic knowledge</label>
-                </li>
+                <li class="list-group-item">French: Mother tongue</li>
+                <li class="list-group-item">English: Level B1</li>
+                <li class="list-group-item">Dutch: Basic knowledge</li>
             </ul>
             <div>
                 <a href="#top">
-                    <img src="img/up-arrow.png" alt="" class="btn-top">
+                    <img src="img/up-arrow.png" alt="Arrow-up" class="btn-top">
                 </a>
             </div>
             </section>
@@ -158,7 +157,7 @@
             </div>
             <div>
                 <a href="#top">
-                    <img src="img/up-arrow.png" alt="" class="btn-top">
+                    <img src="img/up-arrow.png" alt="Arrow-up" class="btn-top">
                 </a>
             </div>
         </section>
@@ -172,7 +171,7 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <div id="content">
+                                    <div class="content">
                                         <ul class="timeline">
                                             <li class="event" data-date="11/2019 - 11/2019">
                                                 <h3>Internship at the Natural History Museum and Vivarium of Tournai</h3>
@@ -192,7 +191,7 @@
                 </div>
                 <div>
                     <a href="#top">
-                        <img src="img/up-arrow.png" alt="" class="btn-top">
+                        <img src="img/up-arrow.png" alt="Arrow-up" class="btn-top">
                     </a>
                 </div>
             </section>
@@ -202,165 +201,21 @@
         <!--Compétences-->
         <section class="container">
             <h2 class="py-5" id="Skills">My skills</h2>
-            <div class="mb-3 p-3 bg-white">
-                <div class="row align-items-center">
-                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fab fa-html5 fa-2x me-3 text-danger"></i>
-                        <p class="fw-bold m-0">HTML5</p>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="progress ">
-                        <div class="progress-bar w-100 bg-info progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                    </div>
+            <div>
+                <div class="skills">
+                    <img src="img/html-logo.png" alt="logo HTML5">
+                    <img src="img/css-logo.png" alt="logo CSS">
+                    <img src="img/sass-logo.png" alt="logo sass">
                 </div>
-            </div>
-
-            <div class="mb-3 p-3 bg-white">
-                <div class="row align-items-center">
-                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fab fa-css3 fa-2x me-3 text-primary"></i>
-                        <p class="fw-bold m-0">CSS3</p>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="progress">
-                        <div class="progress-bar w-75 bg-info progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                    </div>
+                <div class="skills">
+                    <img src="img/js-logo.png" alt="logo JS">
+                    <img src="img/react-logo.png" alt="logo React">
+                    <img src="img/php-logo.png" alt="logo PHP">
                 </div>
-            </div>
-
-            <div class="mb-3 p-3 bg-white">
-                <div class="row align-items-center">
-                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fab fa-sass fa-2x me-3 text-danger"></i>
-                        <p class="fw-bold m-0">SASS</p>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="progress">
-                        <div class="progress-bar w-75 bg-info progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-3 p-3 bg-white">
-                <div class="row align-items-center">
-                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fab fa-js fa-2x me-3 text-warning"></i>
-                        <p class="fw-bold m-0">Javascript</p>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="progress">
-                        <div class="progress-bar w-50 bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-3 p-3 bg-white">
-                <div class="row align-items-center">
-                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fab fa-react fa-2x me-3 text-info"></i>
-                        <p class="fw-bold m-0">React</p>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="progress">
-                        <div class="progress-bar w-25 bg-info progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-3 p-3 bg-white">
-                <div class="row align-items-center">
-                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fab fa-php fa-2x me-3 text-secondary"></i>
-                        <p class="fw-bold m-0">PHP</p>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="progress">
-                        <div class="progress-bar w-50 bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-3 p-3 bg-white">
-                <div class="row align-items-center">
-                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fab fa-bootstrap fa-2x me-3 text-primary"></i>
-                        <p class="fw-bold m-0">Bootstrap</p>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="progress">
-                        <div class="progress-bar w-50 bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-3 p-3 bg-white">
-                <div class="row align-items-center">
-                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fab fa-figma fa-2x me-3 text-danger"></i>
-                        <p class="fw-bold m-0">Figma</p>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="progress">
-                        <div class="progress-bar w-75 bg-info progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-3 p-3 bg-white">
-                <div class="row align-items-center">
-                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fab fa-sql fa-2x me-3 text-primary"></i>
-                        <p class="fw-bold m-0">MySQL</p>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="progress">
-                        <div class="progress-bar w-50 bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                    </div>
+                <div class="skills">
+                    <img src="img/mysql-logo.png" alt="logo MySQL">
+                    <img src="img/bootstrap-logo.png" alt="logo Bootstrap">
+                    <img src="img/python-logo.png" alt="logo python">
                 </div>
             </div>
             <div>
@@ -372,8 +227,8 @@
     </main>
 
     <!--Footer-->
-    <footer class="bg-info text-center text-white mt-5">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <footer class="nav-color text-center text-white mt-5">
+        <div class="text-center p-3">
             &copy; 2022 Produced by :
             <a class="text-white" href="https://github.com/CalcagnoLoic/CV"> Loïc Calcagno</a>
         </div>
