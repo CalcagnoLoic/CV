@@ -1,11 +1,15 @@
 /*Responsive*/
-@media (max-width:800px) {
+@media (max-width:992px) {
     .btn-top{
         width: 10%;
     }
     .navbar-flex {
         display: flex;
         text-align: center;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -82,7 +86,9 @@ h1, h2, h3, p{
     background-size: cover;
 }
 
-
+.icons {
+    display: flex;
+}
 
 //Styles pour les ancres
 .btn-top{

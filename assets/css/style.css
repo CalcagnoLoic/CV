@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*Responsive*/
-@media (max-width: 800px) {
+@media (max-width: 992px) {
   .btn-top {
     width: 10%;
   }
@@ -9,6 +9,15 @@
     display: -ms-flexbox;
     display: flex;
     text-align: center;
+  }
+  .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -105,6 +114,12 @@ h1, h2, h3, p {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/bannière.jpg);
   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/bannière.jpg);
   background-size: cover;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .btn-top {
